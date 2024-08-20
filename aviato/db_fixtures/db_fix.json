@@ -1,0 +1,956 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-08-16T18:59:23.603Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "T-Shirts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-08-16T18:59:29.208Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Dress",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-08-16T18:59:44.960Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Shoes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-08-16T19:00:49.834Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "For kids",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-08-16T19:01:33.076Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Trousers",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-08-16T19:08:17.449Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "T-shirt red",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-08-16T19:08:40.876Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "T-shirt blue",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-08-16T19:09:13.852Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Shoes black",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-08-16T19:09:42.549Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Shoes pink",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-08-16T19:10:11.989Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Trousers 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-08-16T19:11:31.557Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Trousers 2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add category",
+    "content_type": 7,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change category",
+    "content_type": 7,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": 7,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view category",
+    "content_type": 7,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 8,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 8,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 8,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 8,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add kv store",
+    "content_type": 9,
+    "codename": "add_kvstore"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change kv store",
+    "content_type": 9,
+    "codename": "change_kvstore"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete kv store",
+    "content_type": 9,
+    "codename": "delete_kvstore"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view kv store",
+    "content_type": 9,
+    "codename": "view_kvstore"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$r3ZPJkrml1NN5GB6iMSNwa$1+9D2v7nAvvt2vGQYcw8k0SrCGaXLb/B2cpsTi7AdLs=",
+    "last_login": "2024-08-16T17:35:02.875Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-08-16T17:34:52.830Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "goods",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "goods",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "thumbnail",
+    "model": "kvstore"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "me20xair1xp08x1503ygv80w1ghxejxr",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlm24y8lfc5g7a4XHECOFCcV4u4QKQW0b2beS2TY1pq3zkueijgLLU6_GwI9uO2g3KHdZklzW5cJ5a7Ig3Y5zoWfl8P9O6jQ67dO1hjEZNg5A0Er4sRAw1URgDMFrdOo0A-UfCAfS6AI1nnDzBQGiOL9AeyfOFo:1sf0qs:R1TXdEcfNko4Aq0wTUUkr7uTh0KL1nQv2O-XOZz7JBY",
+    "expire_date": "2024-08-30T17:35:02.878Z"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||04614523d22783d584e9337e2b9fd400",
+  "fields": {
+    "value": "{\"name\": \"cache/24/70/2470791f9d5f4f386ad9ff966f59cebc.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [500, 333]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||0a28d06daa18df3c3fa7a4ebc8425fd4",
+  "fields": {
+    "value": "{\"name\": \"cache/e4/b8/e4b8096426691c929ce0e006203f50a6_tXk5n9P.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [500, 500]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||0a5510cd690ad6cf5d8f00ba7d2a693e",
+  "fields": {
+    "value": "{\"name\": \"cache/f3/e6/f3e67055fe6316c189f82df872c4c144.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [300, 450]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||0c50325596a86ef58e47e8a95086e5b6",
+  "fields": {
+    "value": "{\"name\": \"cache/11/16/1116f3b8116e315a68820b0a4ce178d6.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [300, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||18d5b918fcb215ded7a97f27c4bc0fcc",
+  "fields": {
+    "value": "{\"name\": \"cache/a7/ad/a7adefe4e18963df405317c5b8d6a322.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [500, 500]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||26a0e955d104a123033e59834fafba3e",
+  "fields": {
+    "value": "{\"name\": \"cache/ee/2e/ee2e6f83e40fcbb2a924471b4c50ac11.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [300, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||323cacf52ade375582f09edab0cfeddf",
+  "fields": {
+    "value": "{\"name\": \"products/2024/08/16/76020_EBR.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [980, 980]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||346c02fcf945f84c93fed0b783bf3281",
+  "fields": {
+    "value": "{\"name\": \"cache/cd/8d/cd8d536908dcd4f5a47641cf5672b82a.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [300, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||3ba48ebfd85a14261b4add8823213915",
+  "fields": {
+    "value": "{\"name\": \"cache/e4/b8/e4b8096426691c929ce0e006203f50a6.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [500, 500]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||44d90b2ed69a48071f10dc29059a3ce8",
+  "fields": {
+    "value": "{\"name\": \"products/2024/08/16/running-shoes-2048px-9718.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [2048, 1365]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||4760087b4b81f3d3788de29da086b8c0",
+  "fields": {
+    "value": "{\"name\": \"cache/b1/71/b171c33be9ff0ee6e4ae4f80db5883fc.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [200, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||4979bd8c169c69db707bc9cc8ec1e46d",
+  "fields": {
+    "value": "{\"name\": \"cache/2c/34/2c3468a19e4779ba9f1420a09716e188.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [500, 500]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||5464644b312ac75d4cba4089d58efa42",
+  "fields": {
+    "value": "{\"name\": \"cache/6d/45/6d454b87f0846429b80269cbceba2399.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [500, 500]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||5fbb60d598ddd27271ccead158d744d0",
+  "fields": {
+    "value": "{\"name\": \"cache/d8/83/d883e1d8f6ca4bf759db5ca8d04f06b8.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [500, 500]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||653ac3d4c9422621cbb276f5bb41b35c",
+  "fields": {
+    "value": "{\"name\": \"cache/a5/53/a5531a2c4be867bfdb3bc3e7b9e7e38d.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [500, 500]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||65af9f573ddb5b9c73c57df36f4a8819",
+  "fields": {
+    "value": "{\"name\": \"cache/34/46/34469e83e2308ed0feb5c42a391a31b7.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [300, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||799d1ff54a1cde2a461a201340e956c3",
+  "fields": {
+    "value": "{\"name\": \"products/2024/08/16/38189-1.webp\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [1200, 1200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||92e3aa2698c4f75dddb24cf9b7280119",
+  "fields": {
+    "value": "{\"name\": \"cache/7a/0a/7a0a7eeaebf2c796c93196af1a6b89f4.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [300, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||9369a3814462848811a3d0aa53019ba5",
+  "fields": {
+    "value": "{\"name\": \"cache/b0/3c/b03cf814b8a1dc5c1b560ff26332def7.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [334, 500]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||9457f4144fdce25f77ffc2aabe5a4d70",
+  "fields": {
+    "value": "{\"name\": \"cache/ef/28/ef28b1a965ef57cb4e1c7205982b5249.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [500, 500]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||9983864034fda46a78c638c8e1b322e3",
+  "fields": {
+    "value": "{\"name\": \"products/2024/08/16/61V98P7jiL._AC_UF8941000_QL80_.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [894, 894]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||ac0a8f26ff6e3d9de34883a8f6fa0fa2",
+  "fields": {
+    "value": "{\"name\": \"cache/56/42/564297045e43ca5a59169b11454bc8ce.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [300, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||be0cb8782aed0214842778a761682944",
+  "fields": {
+    "value": "{\"name\": \"cache/e7/9e/e79e76f4d24e6f9f35ddecd1414c764d.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [300, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||c3bd46131349bcfe7a986cca675c5d15",
+  "fields": {
+    "value": "{\"name\": \"products/2024/08/16/71R5u0J9x0L._AC_UY1000_.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [667, 1000]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||cb33dc48a16aa53500db814cf162a532",
+  "fields": {
+    "value": "{\"name\": \"cache/53/01/5301f989ae2ffbebbca305c9246f7928.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [500, 500]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||d56ebc8b0d3d04af2ea7ee4cd0bb82c8",
+  "fields": {
+    "value": "{\"name\": \"cache/4e/b1/4eb1c071a778439c1201ba2b5e66ca91.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [500, 500]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||d6f3c1e226e4a958886134594b60e40e",
+  "fields": {
+    "value": "{\"name\": \"products/2024/08/16/CavalryTwillTrouserscharcoal4.webp\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [1584, 1584]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||e11f7dd0033638d5fd48a4729b91b450",
+  "fields": {
+    "value": "{\"name\": \"cache/5c/e3/5ce35842ea39b1749a35fcbf4b817750.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [500, 500]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||f0f7c1fd6d5c0f1012a025c2fb0da3cf",
+  "fields": {
+    "value": "{\"name\": \"cache/61/18/6118576a94ae59c1b0f16376d31962c9.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [300, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||f436398fbfd22c1a30fed8d45936b773",
+  "fields": {
+    "value": "{\"name\": \"cache/8c/7e/8c7edc882de2e108b062b47db4981579.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [300, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||fee79aaf75a9274a0f56f4d659a5df55",
+  "fields": {
+    "value": "{\"name\": \"cache/91/ca/91cab1b5fa66d90fcbfc09b3d25aff71.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [300, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||323cacf52ade375582f09edab0cfeddf",
+  "fields": {
+    "value": "[\"92e3aa2698c4f75dddb24cf9b7280119\", \"e11f7dd0033638d5fd48a4729b91b450\", \"f0f7c1fd6d5c0f1012a025c2fb0da3cf\", \"cb33dc48a16aa53500db814cf162a532\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||44d90b2ed69a48071f10dc29059a3ce8",
+  "fields": {
+    "value": "[\"04614523d22783d584e9337e2b9fd400\", \"d56ebc8b0d3d04af2ea7ee4cd0bb82c8\", \"fee79aaf75a9274a0f56f4d659a5df55\", \"65af9f573ddb5b9c73c57df36f4a8819\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||799d1ff54a1cde2a461a201340e956c3",
+  "fields": {
+    "value": "[\"be0cb8782aed0214842778a761682944\", \"0c50325596a86ef58e47e8a95086e5b6\", \"18d5b918fcb215ded7a97f27c4bc0fcc\", \"9457f4144fdce25f77ffc2aabe5a4d70\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||9983864034fda46a78c638c8e1b322e3",
+  "fields": {
+    "value": "[\"26a0e955d104a123033e59834fafba3e\", \"346c02fcf945f84c93fed0b783bf3281\", \"653ac3d4c9422621cbb276f5bb41b35c\", \"4979bd8c169c69db707bc9cc8ec1e46d\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||c3bd46131349bcfe7a986cca675c5d15",
+  "fields": {
+    "value": "[\"0a5510cd690ad6cf5d8f00ba7d2a693e\", \"9369a3814462848811a3d0aa53019ba5\", \"4760087b4b81f3d3788de29da086b8c0\", \"5464644b312ac75d4cba4089d58efa42\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||d6f3c1e226e4a958886134594b60e40e",
+  "fields": {
+    "value": "[\"0a28d06daa18df3c3fa7a4ebc8425fd4\", \"f436398fbfd22c1a30fed8d45936b773\", \"5fbb60d598ddd27271ccead158d744d0\", \"ac0a8f26ff6e3d9de34883a8f6fa0fa2\", \"3ba48ebfd85a14261b4add8823213915\"]"
+  }
+},
+{
+  "model": "goods.category",
+  "pk": 1,
+  "fields": {
+    "name": "T-Shirts",
+    "slug": "t-shirts"
+  }
+},
+{
+  "model": "goods.category",
+  "pk": 2,
+  "fields": {
+    "name": "Dress",
+    "slug": "dress"
+  }
+},
+{
+  "model": "goods.category",
+  "pk": 3,
+  "fields": {
+    "name": "Shoes",
+    "slug": "shoes"
+  }
+},
+{
+  "model": "goods.category",
+  "pk": 4,
+  "fields": {
+    "name": "For kids",
+    "slug": "for-kids"
+  }
+},
+{
+  "model": "goods.category",
+  "pk": 5,
+  "fields": {
+    "name": "Trousers",
+    "slug": "trousers"
+  }
+},
+{
+  "model": "goods.product",
+  "pk": 1,
+  "fields": {
+    "name": "T-shirt red",
+    "slug": "t-shirt-red",
+    "category": 1,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur blandit tortor, viverra facilisis est congue nec. Donec aliquet ultrices nisi, a suscipit est aliquam at. Donec sit amet lectus venenatis, tempor lectus et, auctor mi. Curabitur vehicula, mi eu tincidunt interdum, sem mauris porta dui, ut tristique nunc tellus id massa. Aliquam malesuada sem placerat nisi cursus ultrices. Pellentesque eu ex a est pretium finibus id sed est. In hac habitasse platea dictumst. Donec aliquam mollis ex, vel gravida sapien convallis a. Aenean semper eleifend diam, in ullamcorper libero sollicitudin at. Nam nec leo nibh. In tincidunt posuere lorem et scelerisque. Sed convallis quam a nibh molestie egestas. Nullam gravida dictum quam.",
+    "image": "products/2024/08/16/76020_EBR.jpg",
+    "price": "50.00",
+    "available": true,
+    "created": "2024-08-16T19:08:17.448Z",
+    "updated": "2024-08-16T19:08:17.448Z"
+  }
+},
+{
+  "model": "goods.product",
+  "pk": 2,
+  "fields": {
+    "name": "T-shirt blue",
+    "slug": "t-shirt-blue",
+    "category": 1,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur blandit tortor, viverra facilisis est congue nec. Donec aliquet ultrices nisi, a suscipit est aliquam at. Donec sit amet lectus venenatis, tempor lectus et, auctor mi. Curabitur vehicula, mi eu tincidunt interdum, sem mauris porta dui, ut tristique nunc tellus id massa. Aliquam malesuada sem placerat nisi cursus ultrices. Pellentesque eu ex a est pretium finibus id sed est. In hac habitasse platea dictumst. Donec aliquam mollis ex, vel gravida sapien convallis a. Aenean semper eleifend diam, in ullamcorper libero sollicitudin at. Nam nec leo nibh. In tincidunt posuere lorem et scelerisque. Sed convallis quam a nibh molestie egestas. Nullam gravida dictum quam.",
+    "image": "products/2024/08/16/38189-1.webp",
+    "price": "46.00",
+    "available": true,
+    "created": "2024-08-16T19:08:40.874Z",
+    "updated": "2024-08-16T19:08:40.874Z"
+  }
+},
+{
+  "model": "goods.product",
+  "pk": 3,
+  "fields": {
+    "name": "Shoes black",
+    "slug": "shoes-black",
+    "category": 3,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur blandit tortor, viverra facilisis est congue nec. Donec aliquet ultrices nisi, a suscipit est aliquam at. Donec sit amet lectus venenatis, tempor lectus et, auctor mi. Curabitur vehicula, mi eu tincidunt interdum, sem mauris porta dui, ut tristique nunc tellus id massa. Aliquam malesuada sem placerat nisi cursus ultrices. Pellentesque eu ex a est pretium finibus id sed est. In hac habitasse platea dictumst. Donec aliquam mollis ex, vel gravida sapien convallis a. Aenean semper eleifend diam, in ullamcorper libero sollicitudin at. Nam nec leo nibh. In tincidunt posuere lorem et scelerisque. Sed convallis quam a nibh molestie egestas. Nullam gravida dictum quam.",
+    "image": "products/2024/08/16/running-shoes-2048px-9718.jpg",
+    "price": "61.99",
+    "available": true,
+    "created": "2024-08-16T19:09:13.851Z",
+    "updated": "2024-08-16T19:09:13.851Z"
+  }
+},
+{
+  "model": "goods.product",
+  "pk": 4,
+  "fields": {
+    "name": "Shoes pink",
+    "slug": "shoes-pink",
+    "category": 3,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur blandit tortor, viverra facilisis est congue nec. Donec aliquet ultrices nisi, a suscipit est aliquam at. Donec sit amet lectus venenatis, tempor lectus et, auctor mi. Curabitur vehicula, mi eu tincidunt interdum, sem mauris porta dui, ut tristique nunc tellus id massa. Aliquam malesuada sem placerat nisi cursus ultrices. Pellentesque eu ex a est pretium finibus id sed est. In hac habitasse platea dictumst. Donec aliquam mollis ex, vel gravida sapien convallis a. Aenean semper eleifend diam, in ullamcorper libero sollicitudin at. Nam nec leo nibh. In tincidunt posuere lorem et scelerisque. Sed convallis quam a nibh molestie egestas. Nullam gravida dictum quam.",
+    "image": "products/2024/08/16/61V98P7jiL._AC_UF8941000_QL80_.jpg",
+    "price": "59.49",
+    "available": true,
+    "created": "2024-08-16T19:09:42.548Z",
+    "updated": "2024-08-16T19:09:42.548Z"
+  }
+},
+{
+  "model": "goods.product",
+  "pk": 5,
+  "fields": {
+    "name": "Trousers 1",
+    "slug": "trousers-1",
+    "category": 5,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur blandit tortor, viverra facilisis est congue nec. Donec aliquet ultrices nisi, a suscipit est aliquam at. Donec sit amet lectus venenatis, tempor lectus et, auctor mi. Curabitur vehicula, mi eu tincidunt interdum, sem mauris porta dui, ut tristique nunc tellus id massa. Aliquam malesuada sem placerat nisi cursus ultrices. Pellentesque eu ex a est pretium finibus id sed est. In hac habitasse platea dictumst. Donec aliquam mollis ex, vel gravida sapien convallis a. Aenean semper eleifend diam, in ullamcorper libero sollicitudin at. Nam nec leo nibh. In tincidunt posuere lorem et scelerisque. Sed convallis quam a nibh molestie egestas. Nullam gravida dictum quam.",
+    "image": "products/2024/08/16/71R5u0J9x0L._AC_UY1000_.jpg",
+    "price": "44.00",
+    "available": true,
+    "created": "2024-08-16T19:10:11.988Z",
+    "updated": "2024-08-16T19:10:11.988Z"
+  }
+},
+{
+  "model": "goods.product",
+  "pk": 6,
+  "fields": {
+    "name": "Trousers 2",
+    "slug": "trousers-2",
+    "category": 5,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur blandit tortor, viverra facilisis est congue nec. Donec aliquet ultrices nisi, a suscipit est aliquam at. Donec sit amet lectus venenatis, tempor lectus et, auctor mi. Curabitur vehicula, mi eu tincidunt interdum, sem mauris porta dui, ut tristique nunc tellus id massa. Aliquam malesuada sem placerat nisi cursus ultrices. Pellentesque eu ex a est pretium finibus id sed est. In hac habitasse platea dictumst. Donec aliquam mollis ex, vel gravida sapien convallis a. Aenean semper eleifend diam, in ullamcorper libero sollicitudin at. Nam nec leo nibh. In tincidunt posuere lorem et scelerisque. Sed convallis quam a nibh molestie egestas. Nullam gravida dictum quam.",
+    "image": "products/2024/08/16/CavalryTwillTrouserscharcoal4.webp",
+    "price": "35.00",
+    "available": true,
+    "created": "2024-08-16T19:11:31.555Z",
+    "updated": "2024-08-16T19:11:31.555Z"
+  }
+}
+]
