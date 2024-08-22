@@ -109,10 +109,13 @@
 							<option>XL</option>
 						</select>
 					</div> -->
+					<form method="post" action="{% url 'cart:cart_add' product.id %}">
+					{% csrf_token %}
 
 					<div class="product-quantity">
 						<span>Quantity:</span>
 						<div class="product-quantity-slider">
+							
 							<input id="product-quantity" type="text" min="1" value="1" name="product-quantity">
 						</div>
 					</div>
@@ -129,7 +132,8 @@
 					</p>
 					
 					
-					<a href="cart.html" class="btn btn-main mt-20">Add To Cart</a>
+						<input type="submit" class="btn btn-main mt-20" value="Add To Cart"></input>
+					</form>
 				</div>
 			</div>
 		</div>

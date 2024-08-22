@@ -47,7 +47,7 @@
 
 </head>
 
-<body id="body">
+<body id="body" style="display: flex;flex-direction: column; min-height: 100vh;">
 
 <!-- Start Top Header Bar -->
 {% include 'header.html' %}
@@ -57,59 +57,19 @@
 <!-- Main Menu Section -->
 {% include 'navbar.html' %}
 
+{% if messages %}
+<div class="alert alert-success alert-common alert-dismissible col-xs-2" style="position:fixed; bottom: 10px; right: 10px" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+  <i class="tf-ion-thumbsup"></i> {% for message in messages %} {{message}} {% endfor %}
+</div>
+{% endif %}
 
 {% block content %}
 
 {% endblock content %}
 
+{% include 'footer.html' %}
 
-
-
-<footer class="footer section text-center">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<ul class="social-media">
-					<li>
-						<a href="https://www.facebook.com/themefisher">
-							<i class="tf-ion-social-facebook"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.instagram.com/themefisher">
-							<i class="tf-ion-social-instagram"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.twitter.com/themefisher">
-							<i class="tf-ion-social-twitter"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.pinterest.com/themefisher/">
-							<i class="tf-ion-social-pinterest"></i>
-						</a>
-					</li>
-				</ul>
-				<ul class="footer-menu text-uppercase">
-					<li>
-						<a href="contact.html">CONTACT</a>
-					</li>
-					<li>
-						<a href="shop.html">SHOP</a>
-					</li>
-					<li>
-						<a href="pricing.html">Pricing</a>
-					</li>
-					<li>
-						<a href="contact.html">PRIVACY POLICY</a>
-					</li>
-				</ul>
-				<p class="copyright-text">Copyright &copy;2021, Designed &amp; Developed by <a href="https://themefisher.com/">Themefisher</a></p>
-			</div>
-		</div>
-	</div>
-</footer>
 
     <!-- 
     Essential Scripts

@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+{% load thumbnail %}
+{% block content %}
+<section class="page-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="content">
+					<h1 class="page-name">Cart</h1>
+					<ol class="breadcrumb">
+						<li><a href="index.html">Home</a></li>
+						<li class="active">cart</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="page-wrapper">
+  <div class="cart shopping">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="block">
+            <div class="product-list">
+              {% if not cart %}
+              <h2 class="text-center">Cart is empty</h2>
+              <hr>
+              <div class="text-center">
+                <a href="{% url 'goods:catalog' %}" class="btn btn-main btn-icon"><i class="tf-ion-ios-cart-outline"></i>Buy something!</a>
+              </div>
+              {% else %}
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th class="">Item Name</th>
+                      <th class="">Item Price</th>
+                      <th class="">Quantity</th>
+                      <th class="">Total</th>
+                      <th class="">Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  
+                    {% for item in cart %}
+                    {% with product=item.product %}
+                    <tr class="">
+                      <td class="">
+                        <div class="product-info">
+                          <img width="80" src="{% thumbnail product.image '80x80' crop='center' %}" alt="" />
+                          <a href="{{product.get_absolute_url}}">{{product.name}}</a>
+                        </div>
+                      </td>
+                      <td class="">${{product.price}}</td>
+                      <td class="">
+                        {{item.quantity}}
+                        <!-- <input class="form-control text-center input-sm" id="quantity" type="text" min="1" value="{{item.quantity}}" name="product-quantity"> -->
+                      </td>
+                      <td class="">${{item.total_price}}</td>
+                      <td class="">
+                        <form method="post" action="{% url 'cart:cart_remove' product.id %}">
+                          {% csrf_token %}
+                          <input type="submit" class="product-remove" value="Remove">
+                        </form>
+                      </td>
+                    </tr>
+                    {% endwith %}
+                    {% endfor %}
+                  </tbody>
+                </table>
+                <a href="checkout.html" class="btn btn-main pull-right">Checkout</a>
+                {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
+{% endblock content %}

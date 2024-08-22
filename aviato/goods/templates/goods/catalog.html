@@ -128,7 +128,11 @@
 			                        <a href="#!" ><i class="tf-ion-ios-heart"></i></a>
 								</li>
 								<li>
-									<a href="#!"><i class="tf-ion-android-cart"></i></a>
+									<form method="post" action="{% url 'cart:cart_add' product.id %}">
+										{% csrf_token %}
+										
+										<button type="submit" class="btn btn-cart"><i class="tf-ion-android-cart"></i></button>
+									</form>
 								</li>
 							</ul>
                       	</div>
@@ -140,14 +144,15 @@
 				</div>
 			</div>
 			{% empty %}
-			<div class="col-md-12">
-				<h2>No products found in this category</h2>
+			<div class="col-md-12 ">
+				<h2 class="text-center">No products found in this category</h2>
 			</div>
 			{% endfor %}
 				
-				</div>		
-				<nav aria-label="Page navigation example">
-					<ul class="pagination">
+				</div>
+				{% if products %}		
+				<nav aria-label="Page navigation example" class="text-center">
+					<ul class="pagination ">
 					  <li class="page-item {% if not products.has_previous %}disabled{% endif %}">
 						<a class="page-link" href="{% if products.has_previous %}?page={{products.previous_page_number}}{% endif %}" aria-label="Previous">
 						  <span aria-hidden="true">&laquo;</span>
@@ -164,7 +169,8 @@
 						</a>
 					  </li>
 					</ul>
-				  </nav>	
+				  </nav>
+				{% endif %}	
 			</div>
 		
 		</div>
