@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     # my apps
     'goods.apps.GoodsConfig',
     'cart.apps.CartConfig',
+    'main.apps.MainConfig',
     
 ]
 

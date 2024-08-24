@@ -17,7 +17,7 @@ def cart_add(request, product_id):
         cart.add(product, quantity=quantity)
         messages.success(request, f'Product "{product.name}" added to cart')
 
-    return redirect('goods:catalog')
+    return redirect(request.META.get('HTTP_REFERER', '/'))
 
 
 # Create your views here.

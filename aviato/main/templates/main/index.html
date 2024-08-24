@@ -1,0 +1,179 @@
+
+{% extends "base.html" %}
+{% load thumbnail %}
+{% load static %}
+{% block content %}
+<div class="hero-slider">
+  <div class="slider-item th-fullpage hero-area" style="background-image: url('media/slider/slider-1.jpg'); ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 text-center">
+          <p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">PRODUCTS</p>
+          <h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">The beauty of nature <br> is hidden in details.</h1>
+          <a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn" href="{% url 'goods:catalog' %}">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slider-item th-fullpage hero-area" style="background-image: url('media/slider/slider-3.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 text-left">
+          <p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">PRODUCTS</p>
+          <h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">The beauty of nature <br> is hidden in details.</h1>
+          <a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn" href="{% url 'goods:catalog' %}">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slider-item th-fullpage hero-area" style="background-image: url('media/slider/slider-2.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 text-right">
+          <p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">PRODUCTS</p>
+          <h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">The beauty of nature <br> is hidden in details.</h1>
+          <a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn" href="{% url 'goods:catalog' %}">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="product-category section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="title text-center">
+					<h2>Product Category</h2>
+				</div>
+			</div>
+            {% for category in categories %}
+			<div class="col-md-6">
+				<div class="category-box">
+					<a href="#!">
+						<img src="https://dummyimage.com/300x300/d1d1d1" alt="" />
+						<div class="content">
+							<h3>{{category.name}}</h3>
+							<p>Some info about "{{category.name}}" category</p>
+						</div>
+					</a>	
+				</div>
+				<!-- <div class="category-box">
+					<a href="#!">
+						<img src="images/shop/category/category-2.jpg" alt="" />
+						<div class="content">
+							<h3>Smart Casuals</h3>
+							<p>Get Wide Range Selection</p>
+						</div>
+					</a>	
+				</div> -->
+			</div>
+            {% endfor %}
+			
+		</div>
+	</div>
+</section>
+
+<section class="products section bg-gray">
+	<div class="container">
+		<div class="row">
+			<div class="title text-center">
+				<h2>Trendy Products</h2>
+			</div>
+		</div>
+		<div class="row">
+			{% for product in trending_products %}
+			<div class="col-md-4">
+				<div class="product-item">
+					<div class="product-thumb">
+						
+						<img class="img-responsive" src="{% thumbnail product.image '500x500' crop='center' %}" alt="product-img" />
+						<div class="preview-meta">
+							<ul>
+								<li>
+									<span  data-toggle="modal" data-target="#product-modal{{product.id}}">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+								</li>
+								<li>
+			                        <a href="#!" ><i class="tf-ion-ios-heart"></i></a>
+								</li>
+								<li>
+									<a href="#!"><i class="tf-ion-android-cart"></i></a>
+								</li>
+							</ul>
+                      	</div>
+					</div>
+					<div class="product-content">
+						<h4><a href="product-single.html">{{product.name}}</a></h4>
+						<p class="price">${{product.price}}</p>
+					</div>
+				</div>
+			</div>
+
+		<!-- Modal -->
+		<div class="modal product-modal fade" id="product-modal{{product.id}}">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<i class="tf-ion-close"></i>
+			</button>
+		  	<div class="modal-dialog " role="document">
+		    	<div class="modal-content">
+			      	<div class="modal-body">
+			        	<div class="row">
+			        		<div class="col-md-8 col-sm-6 col-xs-12">
+			        			<div class="modal-image">
+				        			<img class="img-responsive" src="{% thumbnail product.image '300x300' crop='center' %}" alt="product-img" />
+			        			</div>
+			        		</div>
+			        		<div class="col-md-4 col-sm-6 col-xs-12">
+			        			<div class="product-short-details">
+			        				<h2 class="product-title">{{product.name}}</h2>
+			        				<p class="product-price">${{product.price}}</p>
+			        				<p class="product-short-description">
+			        				{{product.description}}
+			        				</p>
+									<form action="{% url 'cart:cart_add' product.id %}" method="post">
+										{% csrf_token %}
+			        					<input type="submit" class="btn btn-main" value="Add To Cart">
+									</form>
+			        				<a href="{{product.get_absolute_url}}" class="btn btn-transparent">View Product Details</a>
+			        			</div>
+			        		</div>
+			        	</div>
+			        </div>
+		    	</div>
+		  	</div>
+		</div>
+		<!-- /.modal -->
+		{% endfor %}
+		</div>
+	</div>
+</section>
+
+
+<!--
+Start Call To Action
+==================================== -->
+<section class="call-to-action section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<div class="title">
+					<h2>SUBSCRIBE TO NEWSLETTER</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, <br> facilis numquam impedit ut sequi. Minus facilis vitae excepturi sit laboriosam.</p>
+				</div>
+				<div class="col-lg-6 col-md-offset-3">
+				    <div class="input-group subscription-form">
+				      <input type="text" class="form-control" placeholder="Enter Your Email Address">
+				      <span class="input-group-btn">
+				        <button class="btn btn-main" type="button">Subscribe Now!</button>
+				      </span>
+				    </div><!-- /input-group -->
+			  </div><!-- /.col-lg-6 -->
+
+			</div>
+		</div> 		<!-- End row -->
+	</div>   	<!-- End container -->
+</section>   <!-- End section -->
+
+{% endblock content %}

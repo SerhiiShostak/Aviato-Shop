@@ -1,0 +1,92 @@
+[
+{
+  "model": "goods.product",
+  "pk": 1,
+  "fields": {
+    "name": "T-shirt red",
+    "slug": "t-shirt-red",
+    "category": 1,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur blandit tortor, viverra facilisis est congue nec. Donec aliquet ultrices nisi, a suscipit est aliquam at. Donec sit amet lectus venenatis, tempor lectus et, auctor mi. Curabitur vehicula, mi eu tincidunt interdum, sem mauris porta dui, ut tristique nunc tellus id massa. Aliquam malesuada sem placerat nisi cursus ultrices. Pellentesque eu ex a est pretium finibus id sed est. In hac habitasse platea dictumst. Donec aliquam mollis ex, vel gravida sapien convallis a. Aenean semper eleifend diam, in ullamcorper libero sollicitudin at. Nam nec leo nibh. In tincidunt posuere lorem et scelerisque. Sed convallis quam a nibh molestie egestas. Nullam gravida dictum quam.",
+    "image": "products/2024/08/16/76020_EBR.jpg",
+    "price": "50.00",
+    "available": true,
+    "created": "2024-08-16T19:08:17.448Z",
+    "updated": "2024-08-16T19:08:17.448Z"
+  }
+},
+{
+  "model": "goods.product",
+  "pk": 2,
+  "fields": {
+    "name": "T-shirt blue",
+    "slug": "t-shirt-blue",
+    "category": 1,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur blandit tortor, viverra facilisis est congue nec. Donec aliquet ultrices nisi, a suscipit est aliquam at. Donec sit amet lectus venenatis, tempor lectus et, auctor mi. Curabitur vehicula, mi eu tincidunt interdum, sem mauris porta dui, ut tristique nunc tellus id massa. Aliquam malesuada sem placerat nisi cursus ultrices. Pellentesque eu ex a est pretium finibus id sed est. In hac habitasse platea dictumst. Donec aliquam mollis ex, vel gravida sapien convallis a. Aenean semper eleifend diam, in ullamcorper libero sollicitudin at. Nam nec leo nibh. In tincidunt posuere lorem et scelerisque. Sed convallis quam a nibh molestie egestas. Nullam gravida dictum quam.",
+    "image": "products/2024/08/16/38189-1.webp",
+    "price": "46.00",
+    "available": true,
+    "created": "2024-08-16T19:08:40.874Z",
+    "updated": "2024-08-16T19:08:40.874Z"
+  }
+},
+{
+  "model": "goods.product",
+  "pk": 3,
+  "fields": {
+    "name": "Shoes black",
+    "slug": "shoes-black",
+    "category": 3,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur blandit tortor, viverra facilisis est congue nec. Donec aliquet ultrices nisi, a suscipit est aliquam at. Donec sit amet lectus venenatis, tempor lectus et, auctor mi. Curabitur vehicula, mi eu tincidunt interdum, sem mauris porta dui, ut tristique nunc tellus id massa. Aliquam malesuada sem placerat nisi cursus ultrices. Pellentesque eu ex a est pretium finibus id sed est. In hac habitasse platea dictumst. Donec aliquam mollis ex, vel gravida sapien convallis a. Aenean semper eleifend diam, in ullamcorper libero sollicitudin at. Nam nec leo nibh. In tincidunt posuere lorem et scelerisque. Sed convallis quam a nibh molestie egestas. Nullam gravida dictum quam.",
+    "image": "products/2024/08/21/running-shoes-2048px-9718.jpg",
+    "price": "61.99",
+    "available": true,
+    "created": "2024-08-16T19:09:13.851Z",
+    "updated": "2024-08-20T22:35:00.256Z"
+  }
+},
+{
+  "model": "goods.product",
+  "pk": 4,
+  "fields": {
+    "name": "Shoes pink",
+    "slug": "shoes-pink",
+    "category": 3,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur blandit tortor, viverra facilisis est congue nec. Donec aliquet ultrices nisi, a suscipit est aliquam at. Donec sit amet lectus venenatis, tempor lectus et, auctor mi. Curabitur vehicula, mi eu tincidunt interdum, sem mauris porta dui, ut tristique nunc tellus id massa. Aliquam malesuada sem placerat nisi cursus ultrices. Pellentesque eu ex a est pretium finibus id sed est. In hac habitasse platea dictumst. Donec aliquam mollis ex, vel gravida sapien convallis a. Aenean semper eleifend diam, in ullamcorper libero sollicitudin at. Nam nec leo nibh. In tincidunt posuere lorem et scelerisque. Sed convallis quam a nibh molestie egestas. Nullam gravida dictum quam.",
+    "image": "products/2024/08/16/61V98P7jiL._AC_UF8941000_QL80_.jpg",
+    "price": "59.49",
+    "available": true,
+    "created": "2024-08-16T19:09:42.548Z",
+    "updated": "2024-08-16T19:09:42.548Z"
+  }
+},
+{
+  "model": "goods.product",
+  "pk": 5,
+  "fields": {
+    "name": "Trousers 1",
+    "slug": "trousers-1",
+    "category": 5,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur blandit tortor, viverra facilisis est congue nec. Donec aliquet ultrices nisi, a suscipit est aliquam at. Donec sit amet lectus venenatis, tempor lectus et, auctor mi. Curabitur vehicula, mi eu tincidunt interdum, sem mauris porta dui, ut tristique nunc tellus id massa. Aliquam malesuada sem placerat nisi cursus ultrices. Pellentesque eu ex a est pretium finibus id sed est. In hac habitasse platea dictumst. Donec aliquam mollis ex, vel gravida sapien convallis a. Aenean semper eleifend diam, in ullamcorper libero sollicitudin at. Nam nec leo nibh. In tincidunt posuere lorem et scelerisque. Sed convallis quam a nibh molestie egestas. Nullam gravida dictum quam.",
+    "image": "products/2024/08/16/71R5u0J9x0L._AC_UY1000_.jpg",
+    "price": "44.00",
+    "available": true,
+    "created": "2024-08-16T19:10:11.988Z",
+    "updated": "2024-08-16T19:10:11.988Z"
+  }
+},
+{
+  "model": "goods.product",
+  "pk": 6,
+  "fields": {
+    "name": "Trousers 2",
+    "slug": "trousers-2",
+    "category": 5,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur blandit tortor, viverra facilisis est congue nec. Donec aliquet ultrices nisi, a suscipit est aliquam at. Donec sit amet lectus venenatis, tempor lectus et, auctor mi. Curabitur vehicula, mi eu tincidunt interdum, sem mauris porta dui, ut tristique nunc tellus id massa. Aliquam malesuada sem placerat nisi cursus ultrices. Pellentesque eu ex a est pretium finibus id sed est. In hac habitasse platea dictumst. Donec aliquam mollis ex, vel gravida sapien convallis a. Aenean semper eleifend diam, in ullamcorper libero sollicitudin at. Nam nec leo nibh. In tincidunt posuere lorem et scelerisque. Sed convallis quam a nibh molestie egestas. Nullam gravida dictum quam.",
+    "image": "products/2024/08/16/CavalryTwillTrouserscharcoal4.webp",
+    "price": "35.00",
+    "available": true,
+    "created": "2024-08-16T19:11:31.555Z",
+    "updated": "2024-08-16T19:11:31.555Z"
+  }
+}
+]
